@@ -1,5 +1,5 @@
 resource "aws_instance" "mySonarInstance" {
-      ami           = "ami-0e472ba40eb589f49"
+      ami           = "ami-03a0c45ebc70f98ea"
 
       key_name = var.key_name
       instance_type = "t2.micro"
