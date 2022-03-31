@@ -5,7 +5,7 @@ variable "aws_region" {
 
 variable "key_name" { 
     description = " SSH keys to connect to ec2 instance" 
-    default     =  "MyUbuntu18EC2Key" 
+    default     =  "TerraformKeyPair" 
 }
 
 variable "instance_type" { 
